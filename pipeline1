@@ -1,6 +1,7 @@
 # PATCH-WGS-pipeline.sh
 
 sample=$(printf '%q\n' "${PWD##*/}")
+bam=$(echo *.bam)
 
 # Convert bam to fastq
 bamtofastq \
